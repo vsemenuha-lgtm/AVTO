@@ -1,0 +1,625 @@
+[
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2015,
+    "price": 12000,
+    "mileage": 85000,
+    "description": "Reliable and fuel-efficient sedan. Perfect for daily commuting.",
+    "promotionalPrice": 11000,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1c/Toyota_Camry_Classical_01_China_2015-04-20.jpg",
+      "/assets/car_1_img_1784211787232_1.png",
+      "/assets/car_1_img_1784211799732_2.png"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "horsepower": 217,
+      "transmission": "Робот (DCT)",
+      "drivetrain": "Задний (RWD)"
+    },
+    "id": 1
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2012,
+    "price": 8500,
+    "mileage": 110000,
+    "description": "Great starter car, very economical and easy to maintain.",
+    "promotionalPrice": null,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/2012_Honda_Civic_EX_sedan.jpg",
+      "/assets/car_2_img_1784235631849_1.png"
+    ],
+    "specs": {
+      "engine": "1.8L I4 Hybrid",
+      "horsepower": 198,
+      "transmission": "Вариатор (CVT)",
+      "drivetrain": "Задний (RWD)"
+    },
+    "id": 2
+  },
+  {
+    "make": "Ford",
+    "model": "Focus",
+    "year": 2014,
+    "price": 7000,
+    "mileage": 95000,
+    "description": "Sporty compact car with comfortable interior.",
+    "promotionalPrice": null,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/2014_Ford_Focus_1.6_Sigma_S.jpg",
+      "/assets/car_3_img_1784235724412_1.png"
+    ],
+    "specs": {
+      "engine": "1.8L I4 Hybrid",
+      "horsepower": 190,
+      "transmission": "Вариатор (CVT)",
+      "drivetrain": "Передний (FWD)"
+    },
+    "id": 3
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "year": 2016,
+    "price": 14000,
+    "mileage": 70000,
+    "description": "Spacious midsize sedan with modern tech features.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/75/Chevrolet_Malibu_VIII_CN_facelift_China_2016-04-04.jpg",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "horsepower": 113,
+      "transmission": "Автомат (AT)",
+      "drivetrain": "Передний (FWD)"
+    },
+    "id": 4
+  },
+  {
+    "id": 5,
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2013,
+    "price": 9500,
+    "mileage": 105000,
+    "description": "Comfortable ride with excellent highway MPG.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/92/Nissan_Altima_at_Salton_Sea_2013.jpg",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "2.5L I4",
+      "transmission": "Механика (MT)",
+      "horsepower": 164,
+      "drivetrain": "Полный (AWD)"
+    }
+  },
+  {
+    "id": 6,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2017,
+    "price": 13500,
+    "mileage": 60000,
+    "description": "Stylish compact with great warranty and features.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6d/2017_Hyundai_Elantra%2C_Windsor%2C_Ontario%2C_2025-07-01.jpg",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "transmission": "Робот (DCT)",
+      "horsepower": 159,
+      "drivetrain": "Полный (AWD)"
+    }
+  },
+  {
+    "make": "Kia",
+    "model": "Optima",
+    "year": 2015,
+    "price": 11500,
+    "mileage": 80000,
+    "description": "Sleek design, spacious interior, and smooth handling.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kia_Optima_front.jpg",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.8L I4 Hybrid",
+      "horsepower": 243,
+      "transmission": "Автомат (AT)",
+      "drivetrain": "Задний (RWD)"
+    },
+    "id": 7
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 2014,
+    "price": 8800,
+    "mileage": 92000,
+    "description": "European driving dynamics in an affordable package.",
+    "promotionalPrice": null,
+    "images": [
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.8L I4 Hybrid",
+      "horsepower": 186,
+      "transmission": "Механика (MT)",
+      "drivetrain": "Передний (FWD)"
+    },
+    "id": 8
+  },
+  {
+    "id": 9,
+    "make": "Subaru",
+    "model": "Outback",
+    "year": 2012,
+    "price": 10500,
+    "mileage": 120000,
+    "description": "All-wheel drive wagon, perfect for outdoor adventures.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Subaru_Outback_BR_China_2012-04-08.jpg",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "3.5L V6",
+      "transmission": "Вариатор (CVT)",
+      "horsepower": 218,
+      "drivetrain": "Передний (FWD)"
+    }
+  },
+  {
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2016,
+    "price": 14500,
+    "mileage": 65000,
+    "description": "Fun to drive, premium feel interior.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mazda3_SKYACTIV-G.jpg/1280px-Mazda3_SKYACTIV-G.jpg",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "3.5L V6",
+      "horsepower": 173,
+      "transmission": "Автомат (AT)",
+      "drivetrain": "Задний (RWD)"
+    },
+    "id": 10
+  },
+  {
+    "id": 11,
+    "make": "Jeep",
+    "model": "Cherokee",
+    "year": 2015,
+    "price": 15000,
+    "mileage": 85000,
+    "description": "Capable compact SUV with iconic styling.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/26_Jeep_Cherokee_Limited_AZIAS.jpg/1280px-26_Jeep_Cherokee_Limited_AZIAS.jpg",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "transmission": "Автомат (AT)",
+      "horsepower": 208,
+      "drivetrain": "Задний (RWD)"
+    }
+  },
+  {
+    "id": 12,
+    "make": "Ford",
+    "model": "Escape",
+    "year": 2013,
+    "price": 9000,
+    "mileage": 100000,
+    "description": "Versatile SUV with plenty of cargo space.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2021_Ford_Escape_Hybrid_SEL_AWD_in_Oxford_White%2C_front_left.jpg/1280px-2021_Ford_Escape_Hybrid_SEL_AWD_in_Oxford_White%2C_front_left.jpg",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "transmission": "Вариатор (CVT)",
+      "horsepower": 237,
+      "drivetrain": "Полный (AWD)"
+    }
+  },
+  {
+    "id": 13,
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2010,
+    "price": 6500,
+    "mileage": 130000,
+    "description": "Legendary reliability. Needs nothing but a new owner.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Toyota_Corolla_Hybrid_%28E210%29_IMG_4338.jpg/1280px-Toyota_Corolla_Hybrid_%28E210%29_IMG_4338.jpg",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "transmission": "Робот (DCT)",
+      "horsepower": 191,
+      "drivetrain": "Полный (AWD)"
+    }
+  },
+  {
+    "id": 14,
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2014,
+    "price": 13000,
+    "mileage": 90000,
+    "description": "Spacious and comfortable midsize family car.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2023_Honda_Accord_LX%2C_front_left%2C_07-13-2023.jpg/1280px-2023_Honda_Accord_LX%2C_front_left%2C_07-13-2023.jpg",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "2.0L I4",
+      "transmission": "Автомат (AT)",
+      "horsepower": 171,
+      "drivetrain": "Передний (FWD)"
+    }
+  },
+  {
+    "make": "Nissan",
+    "model": "Sentra",
+    "year": 2016,
+    "price": 10500,
+    "mileage": 75000,
+    "description": "Great fuel economy and surprisingly roomy interior.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg/1280px-2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.8L I4 Hybrid",
+      "horsepower": 152,
+      "transmission": "Робот (DCT)",
+      "drivetrain": "Полный (AWD)"
+    },
+    "id": 15
+  },
+  {
+    "id": 16,
+    "make": "Chevrolet",
+    "model": "Cruze",
+    "year": 2015,
+    "price": 8500,
+    "mileage": 88000,
+    "description": "Comfortable commuter with intuitive tech.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/2017_Chevrolet_Cruze_LT_in_Arctic_Blue_Metallic%2C_Front_Left.jpg/1280px-2017_Chevrolet_Cruze_LT_in_Arctic_Blue_Metallic%2C_Front_Left.jpg",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "3.5L V6",
+      "transmission": "Автомат (AT)",
+      "horsepower": 176,
+      "drivetrain": "Задний (RWD)"
+    }
+  },
+  {
+    "id": 17,
+    "make": "Hyundai",
+    "model": "Sonata",
+    "year": 2016,
+    "price": 13800,
+    "mileage": 72000,
+    "description": "Smooth ride and packed with standard features.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2024_Hyundai_Sonata_SEL%2C_front_right.jpg/1280px-2024_Hyundai_Sonata_SEL%2C_front_right.jpg",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "transmission": "Механика (MT)",
+      "horsepower": 249,
+      "drivetrain": "Задний (RWD)"
+    }
+  },
+  {
+    "make": "Kia",
+    "model": "Forte",
+    "year": 2017,
+    "price": 12000,
+    "mileage": 65000,
+    "description": "Value-packed compact car with sporty touches.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kia_K3_BD_FL_Snow_White_Pearl_%2813%29_%28cropped%29.jpg/1280px-Kia_K3_BD_FL_Snow_White_Pearl_%2813%29_%28cropped%29.jpg",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.8L I4 Hybrid",
+      "horsepower": 179,
+      "transmission": "Механика (MT)",
+      "drivetrain": "Задний (RWD)"
+    },
+    "id": 18
+  },
+  {
+    "id": 19,
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2015,
+    "price": 11000,
+    "mileage": 85000,
+    "description": "Roomy and refined midsize sedan.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg/1280px-VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "2.5L I4",
+      "transmission": "Робот (DCT)",
+      "horsepower": 224,
+      "drivetrain": "Задний (RWD)"
+    }
+  },
+  {
+    "id": 20,
+    "make": "Subaru",
+    "model": "Forester",
+    "year": 2014,
+    "price": 12500,
+    "mileage": 95000,
+    "description": "Excellent visibility and standard all-wheel drive.",
+    "images": [
+      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "2.5L I4",
+      "transmission": "Вариатор (CVT)",
+      "horsepower": 246,
+      "drivetrain": "Передний (FWD)"
+    }
+  },
+  {
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2016,
+    "price": 16000,
+    "mileage": 70000,
+    "description": "Sporty handling and premium interior for an SUV.",
+    "images": [
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "horsepower": 136,
+      "transmission": "Автомат (AT)",
+      "drivetrain": "Задний (RWD)"
+    },
+    "id": 21
+  },
+  {
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2011,
+    "price": 10000,
+    "mileage": 115000,
+    "description": "Entry-level luxury with excellent driving dynamics.",
+    "images": [
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "horsepower": 104,
+      "transmission": "Вариатор (CVT)",
+      "drivetrain": "Передний (FWD)"
+    },
+    "id": 22
+  },
+  {
+    "id": 23,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2012,
+    "price": 12000,
+    "mileage": 105000,
+    "description": "Classic luxury and comfort.",
+    "images": [
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "transmission": "Автомат (AT)",
+      "horsepower": 127,
+      "drivetrain": "Задний (RWD)"
+    }
+  },
+  {
+    "id": 24,
+    "make": "Audi",
+    "model": "A4",
+    "year": 2013,
+    "price": 13500,
+    "mileage": 95000,
+    "description": "Sophisticated styling and Quattro all-wheel drive.",
+    "images": [
+      "https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.8L I4 Hybrid",
+      "transmission": "Вариатор (CVT)",
+      "horsepower": 170,
+      "drivetrain": "Передний (FWD)"
+    }
+  },
+  {
+    "make": "Lexus",
+    "model": "IS",
+    "year": 2011,
+    "price": 14000,
+    "mileage": 110000,
+    "description": "Reliable luxury with a sporty edge.",
+    "images": [
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "2.5L I4",
+      "horsepower": 157,
+      "transmission": "Робот (DCT)",
+      "drivetrain": "Задний (RWD)"
+    },
+    "id": 25
+  },
+  {
+    "id": 26,
+    "make": "Acura",
+    "model": "TL",
+    "year": 2012,
+    "price": 11500,
+    "mileage": 105000,
+    "description": "Tech-focused luxury sedan.",
+    "images": [
+      "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "2.5L I4",
+      "transmission": "Автомат (AT)",
+      "horsepower": 170,
+      "drivetrain": "Полный (AWD)"
+    }
+  },
+  {
+    "id": 27,
+    "make": "Infiniti",
+    "model": "G37",
+    "year": 2011,
+    "price": 10500,
+    "mileage": 115000,
+    "description": "Powerful V6 engine and sharp handling.",
+    "images": [
+      "https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.6L I4 Turbo",
+      "transmission": "Вариатор (CVT)",
+      "horsepower": 154,
+      "drivetrain": "Полный (AWD)"
+    }
+  },
+  {
+    "make": "Volvo",
+    "model": "S60",
+    "year": 2014,
+    "price": 12500,
+    "mileage": 90000,
+    "description": "Exceptional safety features and comfortable seats.",
+    "images": [
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "3.5L V6",
+      "horsepower": 233,
+      "transmission": "Робот (DCT)",
+      "drivetrain": "Задний (RWD)"
+    },
+    "id": 28
+  },
+  {
+    "id": 29,
+    "make": "Dodge",
+    "model": "Charger",
+    "year": 2015,
+    "price": 16500,
+    "mileage": 80000,
+    "description": "Spacious family sedan with muscle car attitude.",
+    "images": [
+      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "2.0L I4",
+      "transmission": "Автомат (AT)",
+      "horsepower": 181,
+      "drivetrain": "Полный (AWD)"
+    }
+  },
+  {
+    "id": 30,
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2013,
+    "price": 15500,
+    "mileage": 85000,
+    "description": "Iconic American muscle car.",
+    "images": [
+      "https://images.unsplash.com/photo-1584345604325-f5091269a0d1?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": {
+      "engine": "1.8L I4 Hybrid",
+      "transmission": "Автомат (AT)",
+      "horsepower": 113,
+      "drivetrain": "Полный (AWD)"
+    }
+  }
+]

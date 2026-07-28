@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxora Motors - Свежий Взгляд</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo" style="cursor: pointer;" onclick="window.location.hash='home'">LUXORA <span>Motors</span></div>
+    
+    <!-- Hamburger icon -->
+    <div class="menu-toggle" id="mobile-menu-toggle" onclick="toggleMobileMenu()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" onclick="closeMobileMenu()">Главная</a></li>
+      <li><a href="#catalog" onclick="closeMobileMenu()">Автомобили</a></li>
+      <li><a href="#admin" onclick="closeMobileMenu()">Админ панель</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Page -->
+  <section id="home-page" class="page active">
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Элегантность в каждом движении.</h1>
+        <p>Откройте для себя превосходные автомобили. Ваш идеальный автомобиль ждет вас.</p>
+        <button class="btn-primary" style="font-size: 1.5rem; padding: 1.5rem 3rem; border-radius: 75px;" onclick="window.location.hash='catalog'">Смотреть каталог</button>
+      </div>
+    </header>
+
+    <div class="stats-bar">
+      <div class="stat"><h3>30+</h3><p>Моделей</p></div>
+      <div class="stat"><h3>100%</h3><p>Гарантия качества</p></div>
+      <div class="stat"><h3>10K+</h3><p>Довольных клиентов</p></div>
+    </div>
+
+    <!-- Featured Cars (New Arrivals) -->
+    <section class="featured-cars">
+      <div class="section-title">
+        <h2>Новые Поступления</h2>
+        <p>Наши самые свежие предложения</p>
+      </div>
+      <div class="featured-slider-wrapper">
+        <button class="slider-btn prev" onclick="scrollFeatured(-1)">&#10094;</button>
+        <div class="featured-track" id="featured-track">
+          <!-- Featured cars injected here -->
+        </div>
+        <button class="slider-btn next" onclick="scrollFeatured(1)">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Promotional Cars (Special Offers) -->
+    <section class="featured-cars">
+      <div class="section-title">
+        <h2>Специальные предложения</h2>
+        <p>Лучшие цены на автомобили по акции</p>
+      </div>
+      <div class="featured-slider-wrapper">
+        <button class="slider-btn prev" onclick="scrollPromo(-1)">&#10094;</button>
+        <div class="featured-track" id="promo-track">
+          <!-- Promo cars injected here -->
+        </div>
+        <button class="slider-btn next" onclick="scrollPromo(1)">&#10095;</button>
+      </div>
+    </section>
+  </section>
+
+  <!-- Catalog Page -->
+  <section id="catalog-page" class="page">
+    <section id="inventory" class="inventory-section">
+      <div class="section-title">
+        <h2>Наш Автопарк</h2>
+        <p>Выберите свой идеальный автомобиль из нашего каталога</p>
+      </div>
+      <div class="cars-grid" id="cars-grid">
+        <!-- Cars will be injected here -->
+      </div>
+    </section>
+  </section>
+
+  <!-- Car Details Page -->
+  <section id="details-page" class="page">
+    <div class="details-container" id="details-container">
+      <!-- Details will be injected here -->
+    </div>
+  </section>
+
+  <!-- Admin Login Modal -->
+  <div id="admin-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeAdminLogin()">&times;</span>
+      <h2>Вход для Администратора</h2>
+      <input type="password" id="admin-password" placeholder="Введите пароль (admin123)">
+      <button class="btn-primary" onclick="loginAdmin()">Войти</button>
+    </div>
+  </div>
+
+  <!-- Admin Panel Page -->
+  <section id="admin-page" class="page">
+    <div class="admin-container">
+      <h2>Панель Администратора</h2>
+      <button class="btn-primary" onclick="showAddCarForm()">+ Добавить Автомобиль</button>
+      
+      <div id="edit-car-form" class="hidden form-card">
+        <h3>Редактирование Автомобиля</h3>
+        <input type="hidden" id="edit-id">
+        <input type="text" id="edit-make" placeholder="Марка (напр. Toyota)">
+        <input type="text" id="edit-model" placeholder="Модель (напр. Camry)">
+        <input type="number" id="edit-year" placeholder="Год (напр. 2018)">
+        <input type="number" id="edit-price" placeholder="Цена $">
+        <input type="number" id="edit-promotional-price" placeholder="Акционная цена $ (необязательно)">
+        <input type="number" id="edit-mileage" placeholder="Пробег км">
+        
+        <input type="text" id="edit-engine" placeholder="Двигатель (напр. 2.0L I4)">
+        <input type="number" id="edit-hp" placeholder="Мощность л.с.">
+        <select id="edit-transmission">
+          <option value="" disabled>Выберите коробку передач</option>
+          <option value="Автомат (AT)">Автомат (AT)</option>
+          <option value="Механика (MT)">Механика (MT)</option>
+          <option value="Вариатор (CVT)">Вариатор (CVT)</option>
+          <option value="Робот (DCT)">Робот (DCT)</option>
+        </select>
+        <select id="edit-drivetrain">
+          <option value="" disabled>Выберите привод</option>
+          <option value="Передний (FWD)">Передний (FWD)</option>
+          <option value="Задний (RWD)">Задний (RWD)</option>
+          <option value="Полный (AWD)">Полный (AWD)</option>
+        </select>
+
+        <div class="file-upload-wrapper" style="grid-column: span 2;">
+          <label>Текущие фотографии:</label>
+          <div id="edit-current-images" class="edit-images-list">
+            <!-- Thumbnails injected here -->
+          </div>
+          <br>
+          <label for="edit-images">Добавить новые фото:</label>
+          <input type="file" id="edit-images" accept="image/*" multiple>
+        </div>
+
+        <textarea id="edit-desc" placeholder="Описание автомобиля"></textarea>
+        <button class="btn-primary" onclick="saveEditCar()">Сохранить изменения</button>
+        <button class="btn-secondary" onclick="hideEditCarForm()">Отмена</button>
+      </div>
+
+      <div id="add-car-form" class="hidden form-card">
+        <h3>Добавление Автомобиля</h3>
+        <input type="text" id="new-make" placeholder="Марка (напр. Toyota)">
+        <input type="text" id="new-model" placeholder="Модель (напр. Camry)">
+        <input type="number" id="new-year" placeholder="Год (напр. 2018)">
+        <input type="number" id="new-price" placeholder="Цена $">
+        <input type="number" id="new-promotional-price" placeholder="Акционная цена $ (необязательно)">
+        <input type="number" id="new-mileage" placeholder="Пробег км">
+        
+        <!-- Expanded specs -->
+        <input type="text" id="new-engine" placeholder="Двигатель (напр. 2.0L I4)">
+        <input type="number" id="new-hp" placeholder="Мощность л.с.">
+        <select id="new-transmission">
+          <option value="" disabled selected>Выберите коробку передач</option>
+          <option value="Автомат (AT)">Автомат (AT)</option>
+          <option value="Механика (MT)">Механика (MT)</option>
+          <option value="Вариатор (CVT)">Вариатор (CVT)</option>
+          <option value="Робот (DCT)">Робот (DCT)</option>
+        </select>
+        <select id="new-drivetrain">
+          <option value="" disabled selected>Выберите привод</option>
+          <option value="Передний (FWD)">Передний (FWD)</option>
+          <option value="Задний (RWD)">Задний (RWD)</option>
+          <option value="Полный (AWD)">Полный (AWD)</option>
+        </select>
+
+        <div class="file-upload-wrapper">
+          <label for="new-images">Фотографии (от 1 до 10 шт):</label>
+          <input type="file" id="new-images" accept="image/*" multiple>
+        </div>
+
+        <textarea id="new-desc" placeholder="Описание автомобиля"></textarea>
+        <button class="btn-primary" onclick="addCar()">Сохранить</button>
+        <button class="btn-secondary" onclick="hideAddCarForm()">Отмена</button>
+      </div>
+
+      <div class="admin-list" id="admin-list">
+        <!-- Admin car list injected here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox-modal" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <button class="lightbox-btn prev" onclick="prevLightboxImage(event)">&#10094;</button>
+    <img class="lightbox-content" id="lightbox-img" onclick="event.stopPropagation()">
+    <button class="lightbox-btn next" onclick="nextLightboxImage(event)">&#10095;</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Luxora Motors. Все права защищены.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
