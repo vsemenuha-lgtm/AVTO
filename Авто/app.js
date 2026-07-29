@@ -524,9 +524,13 @@ function renderEditImages() {
   const container = document.getElementById('edit-current-images');
   container.innerHTML = '';
   editImagesToKeep.forEach((img, index) => {
+    let imgSrc = img;
+    if (window.location.hostname.includes('github.io') && imgSrc.startsWith('/assets/')) {
+      imgSrc = '.' + imgSrc;
+    }
     container.innerHTML += `
       <div class="edit-img-wrapper">
-        <img src="${img}" alt="car img">
+        <img src="${imgSrc}" alt="car img">
         <button class="remove-img-btn" onclick="removeEditImage(${index})">X</button>
       </div>
     `;
