@@ -8,7 +8,7 @@
     "description": "Reliable and fuel-efficient sedan. Perfect for daily commuting.",
     "promotionalPrice": 11000,
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/1/1c/Toyota_Camry_Classical_01_China_2015-04-20.jpg",
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
       "/assets/car_1_img_1784211787232_1.png",
       "/assets/car_1_img_1784211799732_2.png"
     ],
@@ -29,7 +29,7 @@
     "description": "Great starter car, very economical and easy to maintain.",
     "promotionalPrice": null,
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/0/0d/2012_Honda_Civic_EX_sedan.jpg",
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
       "/assets/car_2_img_1784235631849_1.png"
     ],
     "specs": {
@@ -49,7 +49,7 @@
     "description": "Sporty compact car with comfortable interior.",
     "promotionalPrice": null,
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/5/53/2014_Ford_Focus_1.6_Sigma_S.jpg",
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
       "/assets/car_3_img_1784235724412_1.png"
     ],
     "specs": {
@@ -68,8 +68,8 @@
     "mileage": 70000,
     "description": "Spacious midsize sedan with modern tech features.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/7/75/Chevrolet_Malibu_VIII_CN_facelift_China_2016-04-04.jpg",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_4_ext_1.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -88,11 +88,11 @@
     "mileage": 105000,
     "description": "Comfortable ride with excellent highway MPG.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/9/92/Nissan_Altima_at_Salton_Sea_2013.jpg",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_5_ext_1.jpg",
+      "/assets/car_5_ext_2.jpg",
+      "/assets/car_5_ext_3.jpg",
+      "/assets/car_5_ext_4.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -110,11 +110,11 @@
     "mileage": 60000,
     "description": "Stylish compact with great warranty and features.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/6/6d/2017_Hyundai_Elantra%2C_Windsor%2C_Ontario%2C_2025-07-01.jpg",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_6_ext_1.jpg",
+      "/assets/car_6_ext_2.jpg",
+      "/assets/car_6_ext_3.jpg",
+      "/assets/car_6_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -131,9 +131,9 @@
     "mileage": 80000,
     "description": "Sleek design, spacious interior, and smooth handling.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kia_Optima_front.jpg",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_7_ext_1.jpg",
+      "/assets/car_7_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -152,9 +152,9 @@
     "description": "European driving dynamics in an affordable package.",
     "promotionalPrice": null,
     "images": [
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_8_ext_0.jpg",
+      "/assets/car_8_ext_1.jpg",
+      "/assets/car_8_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -173,9 +173,9 @@
     "mileage": 120000,
     "description": "All-wheel drive wagon, perfect for outdoor adventures.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Subaru_Outback_BR_China_2012-04-08.jpg",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_9_ext_0.jpg",
+      "/assets/car_9_ext_1.jpg",
+      "/assets/car_9_ext_2.jpg"
     ],
     "specs": {
       "engine": "3.5L V6",
@@ -192,9 +192,9 @@
     "mileage": 65000,
     "description": "Fun to drive, premium feel interior.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mazda3_SKYACTIV-G.jpg/1280px-Mazda3_SKYACTIV-G.jpg",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_10_ext_0.jpg",
+      "/assets/car_10_ext_1.jpg",
+      "/assets/car_10_ext_2.jpg"
     ],
     "specs": {
       "engine": "3.5L V6",
@@ -213,11 +213,11 @@
     "mileage": 85000,
     "description": "Capable compact SUV with iconic styling.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/26_Jeep_Cherokee_Limited_AZIAS.jpg/1280px-26_Jeep_Cherokee_Limited_AZIAS.jpg",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_11_ext_0.jpg",
+      "/assets/car_11_ext_1.jpg",
+      "/assets/car_11_ext_2.jpg",
+      "/assets/car_11_ext_3.jpg",
+      "/assets/car_11_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -235,11 +235,11 @@
     "mileage": 100000,
     "description": "Versatile SUV with plenty of cargo space.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2021_Ford_Escape_Hybrid_SEL_AWD_in_Oxford_White%2C_front_left.jpg/1280px-2021_Ford_Escape_Hybrid_SEL_AWD_in_Oxford_White%2C_front_left.jpg",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_12_ext_0.jpg",
+      "/assets/car_12_ext_1.jpg",
+      "/assets/car_12_ext_2.jpg",
+      "/assets/car_12_ext_3.jpg",
+      "/assets/car_12_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -257,11 +257,11 @@
     "mileage": 130000,
     "description": "Legendary reliability. Needs nothing but a new owner.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Toyota_Corolla_Hybrid_%28E210%29_IMG_4338.jpg/1280px-Toyota_Corolla_Hybrid_%28E210%29_IMG_4338.jpg",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_13_ext_1.jpg",
+      "/assets/car_13_ext_2.jpg",
+      "/assets/car_13_ext_3.jpg",
+      "/assets/car_13_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -279,11 +279,11 @@
     "mileage": 90000,
     "description": "Spacious and comfortable midsize family car.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2023_Honda_Accord_LX%2C_front_left%2C_07-13-2023.jpg/1280px-2023_Honda_Accord_LX%2C_front_left%2C_07-13-2023.jpg",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_14_ext_1.jpg",
+      "/assets/car_14_ext_2.jpg",
+      "/assets/car_14_ext_3.jpg",
+      "/assets/car_14_ext_4.jpg"
     ],
     "specs": {
       "engine": "2.0L I4",
@@ -300,8 +300,8 @@
     "mileage": 75000,
     "description": "Great fuel economy and surprisingly roomy interior.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg/1280px-2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_15_ext_1.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -320,10 +320,10 @@
     "mileage": 88000,
     "description": "Comfortable commuter with intuitive tech.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/2017_Chevrolet_Cruze_LT_in_Arctic_Blue_Metallic%2C_Front_Left.jpg/1280px-2017_Chevrolet_Cruze_LT_in_Arctic_Blue_Metallic%2C_Front_Left.jpg",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_16_ext_1.jpg",
+      "/assets/car_16_ext_2.jpg",
+      "/assets/car_16_ext_3.jpg"
     ],
     "specs": {
       "engine": "3.5L V6",
@@ -341,10 +341,10 @@
     "mileage": 72000,
     "description": "Smooth ride and packed with standard features.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2024_Hyundai_Sonata_SEL%2C_front_right.jpg/1280px-2024_Hyundai_Sonata_SEL%2C_front_right.jpg",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_17_ext_1.jpg",
+      "/assets/car_17_ext_2.jpg",
+      "/assets/car_17_ext_3.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -361,10 +361,10 @@
     "mileage": 65000,
     "description": "Value-packed compact car with sporty touches.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kia_K3_BD_FL_Snow_White_Pearl_%2813%29_%28cropped%29.jpg/1280px-Kia_K3_BD_FL_Snow_White_Pearl_%2813%29_%28cropped%29.jpg",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_18_ext_0.jpg",
+      "/assets/car_18_ext_1.jpg",
+      "/assets/car_18_ext_2.jpg",
+      "/assets/car_18_ext_3.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -383,10 +383,10 @@
     "mileage": 85000,
     "description": "Roomy and refined midsize sedan.",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg/1280px-VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_19_ext_1.jpg",
+      "/assets/car_19_ext_2.jpg",
+      "/assets/car_19_ext_3.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -404,10 +404,10 @@
     "mileage": 95000,
     "description": "Excellent visibility and standard all-wheel drive.",
     "images": [
-      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_20_ext_0.jpg",
+      "/assets/car_20_ext_1.jpg",
+      "/assets/car_20_ext_2.jpg",
+      "/assets/car_20_ext_3.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -424,9 +424,9 @@
     "mileage": 70000,
     "description": "Sporty handling and premium interior for an SUV.",
     "images": [
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_21_ext_0.jpg",
+      "/assets/car_21_ext_1.jpg",
+      "/assets/car_21_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -444,9 +444,9 @@
     "mileage": 115000,
     "description": "Entry-level luxury with excellent driving dynamics.",
     "images": [
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_22_ext_0.jpg",
+      "/assets/car_22_ext_1.jpg",
+      "/assets/car_22_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -465,11 +465,11 @@
     "mileage": 105000,
     "description": "Classic luxury and comfort.",
     "images": [
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_23_ext_0.jpg",
+      "/assets/car_23_ext_1.jpg",
+      "/assets/car_23_ext_2.jpg",
+      "/assets/car_23_ext_3.jpg",
+      "/assets/car_23_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -487,9 +487,9 @@
     "mileage": 95000,
     "description": "Sophisticated styling and Quattro all-wheel drive.",
     "images": [
-      "https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_24_ext_0.jpg",
+      "/assets/car_24_ext_1.jpg",
+      "/assets/car_24_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -506,8 +506,8 @@
     "mileage": 110000,
     "description": "Reliable luxury with a sporty edge.",
     "images": [
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_25_ext_0.jpg",
+      "/assets/car_25_ext_1.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -526,9 +526,9 @@
     "mileage": 105000,
     "description": "Tech-focused luxury sedan.",
     "images": [
-      "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_26_ext_0.jpg",
+      "/assets/car_26_ext_1.jpg",
+      "/assets/car_26_ext_2.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -546,10 +546,10 @@
     "mileage": 115000,
     "description": "Powerful V6 engine and sharp handling.",
     "images": [
-      "https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_27_ext_0.jpg",
+      "/assets/car_27_ext_1.jpg",
+      "/assets/car_27_ext_2.jpg",
+      "/assets/car_27_ext_3.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -566,9 +566,9 @@
     "mileage": 90000,
     "description": "Exceptional safety features and comfortable seats.",
     "images": [
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_28_ext_0.jpg",
+      "/assets/car_28_ext_1.jpg",
+      "/assets/car_28_ext_2.jpg"
     ],
     "specs": {
       "engine": "3.5L V6",
@@ -587,11 +587,11 @@
     "mileage": 80000,
     "description": "Spacious family sedan with muscle car attitude.",
     "images": [
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_29_ext_0.jpg",
+      "/assets/car_29_ext_1.jpg",
+      "/assets/car_29_ext_2.jpg",
+      "/assets/car_29_ext_3.jpg",
+      "/assets/car_29_ext_4.jpg"
     ],
     "specs": {
       "engine": "2.0L I4",
@@ -609,10 +609,10 @@
     "mileage": 85000,
     "description": "Iconic American muscle car.",
     "images": [
-      "https://images.unsplash.com/photo-1584345604325-f5091269a0d1?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "/assets/car_30_ext_0.jpg",
+      "/assets/car_30_ext_1.jpg",
+      "/assets/car_30_ext_2.jpg",
+      "/assets/car_30_ext_3.jpg",
       "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
     ],
     "specs": {
