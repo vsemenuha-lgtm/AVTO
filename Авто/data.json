@@ -8,7 +8,7 @@
     "description": "Reliable and fuel-efficient sedan. Perfect for daily commuting.",
     "promotionalPrice": 11000,
     "images": [
-      "/assets/placeholder.jpg",
+      "/assets/car_1_Toyota_Camry_ext_0.jpg",
       "/assets/car_1_img_1784211787232_1.png",
       "/assets/car_1_img_1784211799732_2.png"
     ],
@@ -29,7 +29,7 @@
     "description": "Great starter car, very economical and easy to maintain.",
     "promotionalPrice": null,
     "images": [
-      "/assets/placeholder.jpg",
+      "/assets/car_2_Honda_Civic_ext_0.jpg",
       "/assets/car_2_img_1784235631849_1.png"
     ],
     "specs": {
@@ -49,7 +49,7 @@
     "description": "Sporty compact car with comfortable interior.",
     "promotionalPrice": null,
     "images": [
-      "/assets/placeholder.jpg",
+      "/assets/car_3_Ford_Focus_ext_0.jpg",
       "/assets/car_3_img_1784235724412_1.png"
     ],
     "specs": {
@@ -68,8 +68,8 @@
     "mileage": 70000,
     "description": "Spacious midsize sedan with modern tech features.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_4_ext_1.jpg"
+      "/assets/car_4_Chevrolet_Malibu_ext_0.jpg",
+      "/assets/car_4_Chevrolet_Malibu_ext_1.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -88,11 +88,11 @@
     "mileage": 105000,
     "description": "Comfortable ride with excellent highway MPG.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_5_ext_1.jpg",
-      "/assets/car_5_ext_2.jpg",
-      "/assets/car_5_ext_3.jpg",
-      "/assets/car_5_ext_4.jpg"
+      "/assets/car_5_Nissan_Altima_ext_0.jpg",
+      "/assets/car_5_Nissan_Altima_ext_1.jpg",
+      "/assets/car_5_Nissan_Altima_ext_2.jpg",
+      "/assets/car_5_Nissan_Altima_ext_3.jpg",
+      "/assets/car_5_Nissan_Altima_ext_4.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -110,11 +110,11 @@
     "mileage": 60000,
     "description": "Stylish compact with great warranty and features.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_6_ext_1.jpg",
-      "/assets/car_6_ext_2.jpg",
-      "/assets/car_6_ext_3.jpg",
-      "/assets/car_6_ext_4.jpg"
+      "/assets/car_6_Hyundai_Elantra_fixed.jpg",
+      "/assets/car_6_Hyundai_Elantra_ext_1.jpg",
+      "/assets/car_6_Hyundai_Elantra_ext_2.jpg",
+      "/assets/car_6_Hyundai_Elantra_ext_3.jpg",
+      "/assets/car_6_Hyundai_Elantra_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -131,9 +131,9 @@
     "mileage": 80000,
     "description": "Sleek design, spacious interior, and smooth handling.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_7_ext_1.jpg",
-      "/assets/car_7_ext_2.jpg"
+      "/assets/car_7_Kia_Optima_ext_0.jpg",
+      "/assets/car_7_Kia_Optima_ext_1.jpg",
+      "/assets/car_7_Kia_Optima_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -152,9 +152,9 @@
     "description": "European driving dynamics in an affordable package.",
     "promotionalPrice": null,
     "images": [
-      "/assets/car_8_ext_0.jpg",
-      "/assets/car_8_ext_1.jpg",
-      "/assets/car_8_ext_2.jpg"
+      "/assets/car_8_Volkswagen_Jetta_ext_0.jpg",
+      "/assets/car_8_Volkswagen_Jetta_ext_1.jpg",
+      "/assets/car_8_Volkswagen_Jetta_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -173,9 +173,9 @@
     "mileage": 120000,
     "description": "All-wheel drive wagon, perfect for outdoor adventures.",
     "images": [
-      "/assets/car_9_ext_0.jpg",
-      "/assets/car_9_ext_1.jpg",
-      "/assets/car_9_ext_2.jpg"
+      "/assets/car_9_Subaru_Outback_ext_0.jpg",
+      "/assets/car_9_Subaru_Outback_ext_1.jpg",
+      "/assets/car_9_Subaru_Outback_ext_2.jpg"
     ],
     "specs": {
       "engine": "3.5L V6",
@@ -192,9 +192,9 @@
     "mileage": 65000,
     "description": "Fun to drive, premium feel interior.",
     "images": [
-      "/assets/car_10_ext_0.jpg",
-      "/assets/car_10_ext_1.jpg",
-      "/assets/car_10_ext_2.jpg"
+      "/assets/car_10_Mazda_Mazda3_fixed.jpg",
+      "/assets/car_10_Mazda_Mazda3_ext_1.jpg",
+      "/assets/car_10_Mazda_Mazda3_ext_2.jpg"
     ],
     "specs": {
       "engine": "3.5L V6",
@@ -213,11 +213,11 @@
     "mileage": 85000,
     "description": "Capable compact SUV with iconic styling.",
     "images": [
-      "/assets/car_11_ext_0.jpg",
-      "/assets/car_11_ext_1.jpg",
-      "/assets/car_11_ext_2.jpg",
-      "/assets/car_11_ext_3.jpg",
-      "/assets/car_11_ext_4.jpg"
+      "/assets/car_11_Jeep_Cherokee_ext_0.jpg",
+      "/assets/car_11_Jeep_Cherokee_ext_1.jpg",
+      "/assets/car_11_Jeep_Cherokee_ext_2.jpg",
+      "/assets/car_11_Jeep_Cherokee_ext_3.jpg",
+      "/assets/car_11_Jeep_Cherokee_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -235,11 +235,11 @@
     "mileage": 100000,
     "description": "Versatile SUV with plenty of cargo space.",
     "images": [
-      "/assets/car_12_ext_0.jpg",
-      "/assets/car_12_ext_1.jpg",
-      "/assets/car_12_ext_2.jpg",
-      "/assets/car_12_ext_3.jpg",
-      "/assets/car_12_ext_4.jpg"
+      "/assets/car_12_Ford_Escape_ext_0.jpg",
+      "/assets/car_12_Ford_Escape_ext_1.jpg",
+      "/assets/car_12_Ford_Escape_ext_2.jpg",
+      "/assets/car_12_Ford_Escape_ext_3.jpg",
+      "/assets/car_12_Ford_Escape_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -257,11 +257,11 @@
     "mileage": 130000,
     "description": "Legendary reliability. Needs nothing but a new owner.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_13_ext_1.jpg",
-      "/assets/car_13_ext_2.jpg",
-      "/assets/car_13_ext_3.jpg",
-      "/assets/car_13_ext_4.jpg"
+      "/assets/car_13_Toyota_Corolla_ext_0.jpg",
+      "/assets/car_13_Toyota_Corolla_ext_1.jpg",
+      "/assets/car_13_Toyota_Corolla_ext_2.jpg",
+      "/assets/car_13_Toyota_Corolla_ext_3.jpg",
+      "/assets/car_13_Toyota_Corolla_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -279,11 +279,11 @@
     "mileage": 90000,
     "description": "Spacious and comfortable midsize family car.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_14_ext_1.jpg",
-      "/assets/car_14_ext_2.jpg",
-      "/assets/car_14_ext_3.jpg",
-      "/assets/car_14_ext_4.jpg"
+      "/assets/car_14_Honda_Accord_ext_0.jpg",
+      "/assets/car_14_Honda_Accord_ext_1.jpg",
+      "/assets/car_14_Honda_Accord_ext_2.jpg",
+      "/assets/car_14_Honda_Accord_ext_3.jpg",
+      "/assets/car_14_Honda_Accord_ext_4.jpg"
     ],
     "specs": {
       "engine": "2.0L I4",
@@ -300,8 +300,8 @@
     "mileage": 75000,
     "description": "Great fuel economy and surprisingly roomy interior.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_15_ext_1.jpg"
+      "/assets/car_15_Nissan_Sentra_ext_0.jpg",
+      "/assets/car_15_Nissan_Sentra_ext_1.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -320,10 +320,10 @@
     "mileage": 88000,
     "description": "Comfortable commuter with intuitive tech.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_16_ext_1.jpg",
-      "/assets/car_16_ext_2.jpg",
-      "/assets/car_16_ext_3.jpg"
+      "/assets/car_16_Chevrolet_Cruze_ext_0.jpg",
+      "/assets/car_16_Chevrolet_Cruze_ext_1.jpg",
+      "/assets/car_16_Chevrolet_Cruze_ext_2.jpg",
+      "/assets/car_16_Chevrolet_Cruze_ext_3.jpg"
     ],
     "specs": {
       "engine": "3.5L V6",
@@ -341,10 +341,10 @@
     "mileage": 72000,
     "description": "Smooth ride and packed with standard features.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_17_ext_1.jpg",
-      "/assets/car_17_ext_2.jpg",
-      "/assets/car_17_ext_3.jpg"
+      "/assets/car_17_Hyundai_Sonata_ext_0.jpg",
+      "/assets/car_17_Hyundai_Sonata_ext_1.jpg",
+      "/assets/car_17_Hyundai_Sonata_ext_2.jpg",
+      "/assets/car_17_Hyundai_Sonata_ext_3.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -361,10 +361,10 @@
     "mileage": 65000,
     "description": "Value-packed compact car with sporty touches.",
     "images": [
-      "/assets/car_18_ext_0.jpg",
-      "/assets/car_18_ext_1.jpg",
-      "/assets/car_18_ext_2.jpg",
-      "/assets/car_18_ext_3.jpg"
+      "/assets/car_18_Kia_Forte_ext_0.jpg",
+      "/assets/car_18_Kia_Forte_ext_1.jpg",
+      "/assets/car_18_Kia_Forte_ext_2.jpg",
+      "/assets/car_18_Kia_Forte_ext_3.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -383,10 +383,10 @@
     "mileage": 85000,
     "description": "Roomy and refined midsize sedan.",
     "images": [
-      "/assets/placeholder.jpg",
-      "/assets/car_19_ext_1.jpg",
-      "/assets/car_19_ext_2.jpg",
-      "/assets/car_19_ext_3.jpg"
+      "/assets/car_19_Volkswagen_Passat_ext_0.jpg",
+      "/assets/car_19_Volkswagen_Passat_ext_1.jpg",
+      "/assets/car_19_Volkswagen_Passat_ext_2.jpg",
+      "/assets/car_19_Volkswagen_Passat_ext_3.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -404,10 +404,10 @@
     "mileage": 95000,
     "description": "Excellent visibility and standard all-wheel drive.",
     "images": [
-      "/assets/car_20_ext_0.jpg",
-      "/assets/car_20_ext_1.jpg",
-      "/assets/car_20_ext_2.jpg",
-      "/assets/car_20_ext_3.jpg"
+      "/assets/car_20_Subaru_Forester_ext_0.jpg",
+      "/assets/car_20_Subaru_Forester_ext_1.jpg",
+      "/assets/car_20_Subaru_Forester_ext_2.jpg",
+      "/assets/car_20_Subaru_Forester_ext_3.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -424,9 +424,9 @@
     "mileage": 70000,
     "description": "Sporty handling and premium interior for an SUV.",
     "images": [
-      "/assets/car_21_ext_0.jpg",
-      "/assets/car_21_ext_1.jpg",
-      "/assets/car_21_ext_2.jpg"
+      "/assets/car_21_Mazda_CX-5_ext_0.jpg",
+      "/assets/car_21_Mazda_CX-5_ext_1.jpg",
+      "/assets/car_21_Mazda_CX-5_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -444,9 +444,9 @@
     "mileage": 115000,
     "description": "Entry-level luxury with excellent driving dynamics.",
     "images": [
-      "/assets/car_22_ext_0.jpg",
-      "/assets/car_22_ext_1.jpg",
-      "/assets/car_22_ext_2.jpg"
+      "/assets/car_22_BMW_3_Series_ext_0.jpg",
+      "/assets/car_22_BMW_3_Series_ext_1.jpg",
+      "/assets/car_22_BMW_3_Series_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -465,11 +465,11 @@
     "mileage": 105000,
     "description": "Classic luxury and comfort.",
     "images": [
-      "/assets/car_23_ext_0.jpg",
-      "/assets/car_23_ext_1.jpg",
-      "/assets/car_23_ext_2.jpg",
-      "/assets/car_23_ext_3.jpg",
-      "/assets/car_23_ext_4.jpg"
+      "/assets/car_23_Mercedes-Benz_C-Class_ext_0.jpg",
+      "/assets/car_23_Mercedes-Benz_C-Class_ext_1.jpg",
+      "/assets/car_23_Mercedes-Benz_C-Class_ext_2.jpg",
+      "/assets/car_23_Mercedes-Benz_C-Class_ext_3.jpg",
+      "/assets/car_23_Mercedes-Benz_C-Class_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -487,9 +487,9 @@
     "mileage": 95000,
     "description": "Sophisticated styling and Quattro all-wheel drive.",
     "images": [
-      "/assets/car_24_ext_0.jpg",
-      "/assets/car_24_ext_1.jpg",
-      "/assets/car_24_ext_2.jpg"
+      "/assets/car_24_Audi_A4_ext_0.jpg",
+      "/assets/car_24_Audi_A4_ext_1.jpg",
+      "/assets/car_24_Audi_A4_ext_2.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",
@@ -506,8 +506,8 @@
     "mileage": 110000,
     "description": "Reliable luxury with a sporty edge.",
     "images": [
-      "/assets/car_25_ext_0.jpg",
-      "/assets/car_25_ext_1.jpg"
+      "/assets/car_25_Lexus_IS_ext_0.jpg",
+      "/assets/car_25_Lexus_IS_ext_1.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -526,9 +526,9 @@
     "mileage": 105000,
     "description": "Tech-focused luxury sedan.",
     "images": [
-      "/assets/car_26_ext_0.jpg",
-      "/assets/car_26_ext_1.jpg",
-      "/assets/car_26_ext_2.jpg"
+      "/assets/car_26_Acura_TL_ext_0.jpg",
+      "/assets/car_26_Acura_TL_ext_1.jpg",
+      "/assets/car_26_Acura_TL_ext_2.jpg"
     ],
     "specs": {
       "engine": "2.5L I4",
@@ -546,10 +546,10 @@
     "mileage": 115000,
     "description": "Powerful V6 engine and sharp handling.",
     "images": [
-      "/assets/car_27_ext_0.jpg",
-      "/assets/car_27_ext_1.jpg",
-      "/assets/car_27_ext_2.jpg",
-      "/assets/car_27_ext_3.jpg"
+      "/assets/car_27_Infiniti_G37_ext_0.jpg",
+      "/assets/car_27_Infiniti_G37_ext_1.jpg",
+      "/assets/car_27_Infiniti_G37_ext_2.jpg",
+      "/assets/car_27_Infiniti_G37_ext_3.jpg"
     ],
     "specs": {
       "engine": "1.6L I4 Turbo",
@@ -566,9 +566,9 @@
     "mileage": 90000,
     "description": "Exceptional safety features and comfortable seats.",
     "images": [
-      "/assets/car_28_ext_0.jpg",
-      "/assets/car_28_ext_1.jpg",
-      "/assets/car_28_ext_2.jpg"
+      "/assets/car_28_Volvo_S60_ext_0.jpg",
+      "/assets/car_28_Volvo_S60_ext_1.jpg",
+      "/assets/car_28_Volvo_S60_ext_2.jpg"
     ],
     "specs": {
       "engine": "3.5L V6",
@@ -587,11 +587,11 @@
     "mileage": 80000,
     "description": "Spacious family sedan with muscle car attitude.",
     "images": [
-      "/assets/car_29_ext_0.jpg",
-      "/assets/car_29_ext_1.jpg",
-      "/assets/car_29_ext_2.jpg",
-      "/assets/car_29_ext_3.jpg",
-      "/assets/car_29_ext_4.jpg"
+      "/assets/car_29_Dodge_Charger_ext_0.jpg",
+      "/assets/car_29_Dodge_Charger_ext_1.jpg",
+      "/assets/car_29_Dodge_Charger_ext_2.jpg",
+      "/assets/car_29_Dodge_Charger_ext_3.jpg",
+      "/assets/car_29_Dodge_Charger_ext_4.jpg"
     ],
     "specs": {
       "engine": "2.0L I4",
@@ -609,11 +609,11 @@
     "mileage": 85000,
     "description": "Iconic American muscle car.",
     "images": [
-      "/assets/car_30_ext_0.jpg",
-      "/assets/car_30_ext_1.jpg",
-      "/assets/car_30_ext_2.jpg",
-      "/assets/car_30_ext_3.jpg",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80"
+      "/assets/car_30_Ford_Mustang_ext_0.jpg",
+      "/assets/car_30_Ford_Mustang_ext_1.jpg",
+      "/assets/car_30_Ford_Mustang_ext_2.jpg",
+      "/assets/car_30_Ford_Mustang_ext_3.jpg",
+      "/assets/car_30_Ford_Mustang_ext_4.jpg"
     ],
     "specs": {
       "engine": "1.8L I4 Hybrid",

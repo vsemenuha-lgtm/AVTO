@@ -18,12 +18,18 @@ try {
   process.exit(1);
 }
 
-function downloadImage(url, filepath) {
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+function downloadImage(url, filepath, retries = 3) {
   return new Promise((resolve, reject) => {
     const client = url.startsWith('https') ? https : http;
-    client.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
+    client.get(url, { headers: { 'User-Agent': 'LuxoraBot/1.0 (contact@luxora.local)' } }, (res) => {
       if (res.statusCode === 301 || res.statusCode === 302) {
-        return downloadImage(res.headers.location, filepath).then(resolve).catch(reject);
+        return downloadImage(res.headers.location, filepath, retries).then(resolve).catch(reject);
+      }
+      if (res.statusCode === 429 && retries > 0) {
+        console.log(`429 Too Many Requests for ${url}. Retrying in 2 seconds...`);
+        return sleep(2000).then(() => downloadImage(url, filepath, retries - 1)).then(resolve);
       }
       if (res.statusCode !== 200) {
         return resolve(false);
@@ -52,9 +58,12 @@ function downloadImage(url, filepath) {
           console.log(`Downloading ${imgUrl}...`);
           const extMatch = imgUrl.match(/\.(jpg|jpeg|png|webp|gif)/i);
           const ext = extMatch ? extMatch[0] : '.jpg';
-          const filename = `car_${car.id}_ext_${j}${ext}`;
+          // Use car model to make filename unique to avoid cache conflicts
+          const filename = `car_${car.id}_${car.make}_${car.model}_ext_${j}${ext}`.replace(/\s+/g, '_');
           const filepath = path.join(assetsDir, filename);
           
+          await sleep(500); // 500ms delay between requests to be polite
+
           const success = await downloadImage(imgUrl, filepath);
           if (success) {
             car.images[j] = `/assets/${filename}`;
@@ -62,10 +71,6 @@ function downloadImage(url, filepath) {
             console.log(`Saved to ${car.images[j]}`);
           } else {
             console.log(`Failed to download ${imgUrl}`);
-            // If the main image failed to download, let's use a reliable placeholder
-            if (j === 0) {
-               car.images[j] = 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
-            }
           }
         }
       }
