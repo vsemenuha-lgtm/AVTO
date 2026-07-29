@@ -58,7 +58,11 @@ function scrollToInventory() {
 // Fetch Cars from API
 async function fetchCars() {
   try {
-    const res = await fetch('/api/cars');
+    // If on GitHub Pages, fetch the static data.json instead of hitting the local API
+    const isGitHub = window.location.hostname.includes('github.io');
+    const dataUrl = isGitHub ? './data.json' : '/api/cars';
+    
+    const res = await fetch(dataUrl);
     carsData = await res.json();
     renderCars();
     renderFeaturedCars();
@@ -84,7 +88,10 @@ function renderCars() {
   
   carsData.forEach(car => {
     // Show first image or placeholder
-    const imgUrl = (car.images && car.images.length > 0) ? car.images[0] : 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
+    let imgUrl = (car.images && car.images.length > 0) ? car.images[0] : 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
+    if (window.location.hostname.includes('github.io') && imgUrl.startsWith('/assets/')) {
+      imgUrl = '.' + imgUrl;
+    }
     
     const card = document.createElement('div');
     card.className = 'car-card';
@@ -113,7 +120,10 @@ function renderFeaturedCars() {
   const newestCars = [...carsData].sort((a, b) => b.id - a.id).slice(0, 10);
   
   newestCars.forEach(car => {
-    const imgUrl = (car.images && car.images.length > 0) ? car.images[0] : 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
+    let imgUrl = (car.images && car.images.length > 0) ? car.images[0] : 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
+    if (window.location.hostname.includes('github.io') && imgUrl.startsWith('/assets/')) {
+      imgUrl = '.' + imgUrl;
+    }
     
     const card = document.createElement('div');
     card.className = 'car-card';
@@ -147,7 +157,10 @@ function renderPromoCars() {
   const promoCars = carsData.filter(c => c.promotionalPrice);
   
   promoCars.forEach(car => {
-    const imgUrl = (car.images && car.images.length > 0) ? car.images[0] : 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
+    let imgUrl = (car.images && car.images.length > 0) ? car.images[0] : 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
+    if (window.location.hostname.includes('github.io') && imgUrl.startsWith('/assets/')) {
+      imgUrl = '.' + imgUrl;
+    }
     const card = document.createElement('div');
     card.className = 'car-card';
     card.onclick = () => { window.location.hash = 'car-' + car.id; };
@@ -175,7 +188,12 @@ function showCarDetails(id) {
   if (!car) return;
 
   const container = document.getElementById('details-container');
-  carouselImages = (car.images && car.images.length > 0) ? car.images : ['https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80'];
+  carouselImages = (car.images && car.images.length > 0) ? car.images.map(imgUrl => {
+    if (window.location.hostname.includes('github.io') && imgUrl.startsWith('/assets/')) {
+      return '.' + imgUrl;
+    }
+    return imgUrl;
+  }) : ['https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80'];
   currentSlide = 0;
   
   let trackHtml = carouselImages.map((src, i) => `<div class="carousel-slide" onclick="openLightbox(${i})" style="cursor: zoom-in;"><img src="${src}" alt="slide ${i}"></div>`).join('');
