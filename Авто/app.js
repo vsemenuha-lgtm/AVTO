@@ -466,6 +466,7 @@ function renderAdminCars() {
   carsData.forEach(car => {
     const item = document.createElement('div');
     item.className = 'admin-item';
+    item.id = `admin-item-${car.id}`;
     item.innerHTML = `
       <div><strong>${car.make} ${car.model}</strong> (${car.year}) - $${car.price}</div>
       <div>
@@ -496,7 +497,14 @@ function showEditForm(id) {
   if(!car) return;
 
   hideAddCarForm();
-  document.getElementById('edit-car-form').classList.remove('hidden');
+  const editForm = document.getElementById('edit-car-form');
+  const adminItem = document.getElementById(`admin-item-${id}`);
+  
+  if (adminItem && editForm) {
+    adminItem.parentNode.insertBefore(editForm, adminItem.nextSibling);
+  }
+  
+  editForm.classList.remove('hidden');
   
   document.getElementById('edit-id').value = car.id;
   document.getElementById('edit-make').value = car.make;
