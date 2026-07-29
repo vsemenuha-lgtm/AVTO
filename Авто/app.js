@@ -88,7 +88,7 @@ function renderCars() {
   
   carsData.forEach(car => {
     // Show first image or placeholder
-    let imgUrl = (car.images && car.images.length > 0) ? car.images[0] : 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
+    let imgUrl = (car.images && car.images.length > 0) ? car.images[0] : '/assets/placeholder.jpg';
     if (window.location.hostname.includes('github.io') && imgUrl.startsWith('/assets/')) {
       imgUrl = '.' + imgUrl;
     }
@@ -120,7 +120,7 @@ function renderFeaturedCars() {
   const newestCars = [...carsData].sort((a, b) => b.id - a.id).slice(0, 10);
   
   newestCars.forEach(car => {
-    let imgUrl = (car.images && car.images.length > 0) ? car.images[0] : 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
+    let imgUrl = (car.images && car.images.length > 0) ? car.images[0] : '/assets/placeholder.jpg';
     if (window.location.hostname.includes('github.io') && imgUrl.startsWith('/assets/')) {
       imgUrl = '.' + imgUrl;
     }
@@ -157,7 +157,7 @@ function renderPromoCars() {
   const promoCars = carsData.filter(c => c.promotionalPrice);
   
   promoCars.forEach(car => {
-    let imgUrl = (car.images && car.images.length > 0) ? car.images[0] : 'https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80';
+    let imgUrl = (car.images && car.images.length > 0) ? car.images[0] : '/assets/placeholder.jpg';
     if (window.location.hostname.includes('github.io') && imgUrl.startsWith('/assets/')) {
       imgUrl = '.' + imgUrl;
     }
@@ -193,7 +193,7 @@ function showCarDetails(id) {
       return '.' + imgUrl;
     }
     return imgUrl;
-  }) : ['https://images.unsplash.com/photo-1550505187-571f543166d7?auto=format&fit=crop&w=600&q=80'];
+  }) : ['/assets/placeholder.jpg'];
   currentSlide = 0;
   
   let trackHtml = carouselImages.map((src, i) => `<div class="carousel-slide" onclick="openLightbox(${i})" style="cursor: zoom-in;"><img src="${src}" alt="slide ${i}"></div>`).join('');
@@ -602,4 +602,5 @@ async function saveEditCar() {
     document.querySelector('.admin-container').style.opacity = '1';
   }
 }
+
 
